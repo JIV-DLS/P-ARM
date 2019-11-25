@@ -29,17 +29,55 @@ This file is intended to be loaded by Logisim-evolution (https://github.com/reds
       <a name="value" val="0x0"/>
     </tool>
   </lib>
-  <lib desc="#Gates" name="1"/>
+  <lib desc="#Gates" name="1">
+    <tool name="AND Gate">
+      <a name="size" val="30"/>
+    </tool>
+    <tool name="OR Gate">
+      <a name="inputs" val="4"/>
+    </tool>
+  </lib>
   <lib desc="#Plexers" name="2">
     <tool name="Multiplexer">
+      <a name="select" val="4"/>
       <a name="enable" val="false"/>
     </tool>
     <tool name="Demultiplexer">
       <a name="enable" val="false"/>
     </tool>
+    <tool name="BitSelector">
+      <a name="width" val="32"/>
+      <a name="group" val="3"/>
+    </tool>
   </lib>
-  <lib desc="#Arithmetic" name="3"/>
+  <lib desc="#Arithmetic" name="3">
+    <tool name="Adder">
+      <a name="width" val="32"/>
+    </tool>
+    <tool name="Subtractor">
+      <a name="width" val="32"/>
+    </tool>
+    <tool name="Multiplier">
+      <a name="width" val="32"/>
+    </tool>
+    <tool name="Negator">
+      <a name="width" val="32"/>
+    </tool>
+    <tool name="Comparator">
+      <a name="width" val="32"/>
+    </tool>
+    <tool name="BitAdder">
+      <a name="width" val="32"/>
+    </tool>
+    <tool name="BitFinder">
+      <a name="width" val="32"/>
+      <a name="type" val="high1"/>
+    </tool>
+  </lib>
   <lib desc="#Memory" name="4">
+    <tool name="Register">
+      <a name="width" val="32"/>
+    </tool>
     <tool name="ROM">
       <a name="contents">addr/data: 8 8
 0
@@ -118,6 +156,8 @@ end TCL_Generic;&#13;
     </tool>
   </lib>
   <lib desc="#BFH-Praktika" name="9"/>
+  <lib desc="file#ALU.circ" name="10"/>
+  <lib desc="file#BancDeRegistres.circ" name="11"/>
   <main name="main"/>
   <options>
     <a name="gateUndefined" val="ignore"/>
@@ -157,5 +197,7 @@ end TCL_Generic;&#13;
     <a name="clabelfont" val="SansSerif bold 16"/>
     <a name="circuitnamedbox" val="true"/>
     <a name="circuitvhdlpath" val=""/>
+    <comp lib="11" loc="(650,240)" name="BancRegistre"/>
+    <comp lib="10" loc="(400,500)" name="Resultat"/>
   </circuit>
 </project>
