@@ -202,7 +202,6 @@ This file is intended to be loaded by Logisim-evolution (https://github.com/reds
     <wire from="(310,80)" to="(360,80)"/>
     <wire from="(310,600)" to="(360,600)"/>
     <wire from="(310,720)" to="(360,720)"/>
-    <wire from="(360,570)" to="(360,580)"/>
     <wire from="(150,830)" to="(260,830)"/>
     <wire from="(450,50)" to="(450,140)"/>
     <wire from="(540,870)" to="(540,890)"/>
