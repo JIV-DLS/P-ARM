@@ -198,6 +198,6 @@ end TCL_Generic;&#13;
     <a name="circuitnamedbox" val="true"/>
     <a name="circuitvhdlpath" val=""/>
     <comp lib="11" loc="(650,240)" name="BancRegistre"/>
-    <comp lib="10" loc="(400,500)" name="Resultat"/>
+    <comp lib="10" loc="(450,610)" name="Resultat"/>
   </circuit>
 </project>
