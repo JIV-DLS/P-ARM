@@ -160,14 +160,14 @@ This file is intended to be loaded by Logisim-evolution (https://github.com/reds
       <circ-port height="10" pin="580,80" width="10" x="405" y="135"/>
       <circ-port height="8" pin="590,150" width="8" x="276" y="156"/>
       <circ-port height="8" pin="110,880" width="8" x="126" y="106"/>
-      <circ-port height="10" pin="790,110" width="10" x="275" y="165"/>
-      <circ-port height="10" pin="760,200" width="10" x="275" y="175"/>
-      <circ-port height="10" pin="760,300" width="10" x="275" y="185"/>
-      <circ-port height="10" pin="760,400" width="10" x="275" y="195"/>
-      <circ-port height="10" pin="760,500" width="10" x="275" y="205"/>
-      <circ-port height="10" pin="760,600" width="10" x="275" y="215"/>
-      <circ-port height="10" pin="760,700" width="10" x="405" y="125"/>
-      <circ-port height="10" pin="760,800" width="10" x="315" y="165"/>
+      <circ-port height="10" pin="790,110" width="10" x="195" y="65"/>
+      <circ-port height="10" pin="760,200" width="10" x="215" y="65"/>
+      <circ-port height="10" pin="760,300" width="10" x="235" y="65"/>
+      <circ-port height="10" pin="760,400" width="10" x="255" y="65"/>
+      <circ-port height="10" pin="760,500" width="10" x="275" y="65"/>
+      <circ-port height="10" pin="760,600" width="10" x="295" y="65"/>
+      <circ-port height="10" pin="760,700" width="10" x="315" y="65"/>
+      <circ-port height="10" pin="760,800" width="10" x="335" y="65"/>
       <circ-anchor facing="east" height="6" width="6" x="397" y="77"/>
     </appear>
     <wire from="(460,810)" to="(520,810)"/>
