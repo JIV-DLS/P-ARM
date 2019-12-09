@@ -160,35 +160,37 @@ This file is intended to be loaded by Logisim-evolution (https://github.com/reds
       <circ-port height="10" pin="580,80" width="10" x="405" y="135"/>
       <circ-port height="8" pin="590,150" width="8" x="276" y="156"/>
       <circ-port height="8" pin="110,880" width="8" x="126" y="106"/>
-      <circ-port height="10" pin="1300,90" width="10" x="275" y="165"/>
-      <circ-port height="10" pin="1300,190" width="10" x="275" y="175"/>
-      <circ-port height="10" pin="1300,290" width="10" x="275" y="185"/>
-      <circ-port height="10" pin="1300,390" width="10" x="275" y="195"/>
-      <circ-port height="10" pin="1300,490" width="10" x="275" y="205"/>
-      <circ-port height="10" pin="1300,590" width="10" x="275" y="215"/>
-      <circ-port height="10" pin="1300,690" width="10" x="405" y="125"/>
-      <circ-port height="10" pin="1300,790" width="10" x="315" y="165"/>
+      <circ-port height="10" pin="760,100" width="10" x="275" y="165"/>
+      <circ-port height="10" pin="760,200" width="10" x="275" y="175"/>
+      <circ-port height="10" pin="760,300" width="10" x="275" y="185"/>
+      <circ-port height="10" pin="760,400" width="10" x="275" y="195"/>
+      <circ-port height="10" pin="760,500" width="10" x="275" y="205"/>
+      <circ-port height="10" pin="760,600" width="10" x="275" y="215"/>
+      <circ-port height="10" pin="760,700" width="10" x="405" y="125"/>
+      <circ-port height="10" pin="760,800" width="10" x="315" y="165"/>
       <circ-anchor facing="east" height="6" width="6" x="397" y="77"/>
     </appear>
     <wire from="(460,810)" to="(520,810)"/>
     <wire from="(470,70)" to="(520,70)"/>
-    <wire from="(470,360)" to="(470,820)"/>
+    <wire from="(510,780)" to="(760,780)"/>
     <wire from="(240,280)" to="(240,810)"/>
     <wire from="(280,700)" to="(280,850)"/>
     <wire from="(510,780)" to="(510,860)"/>
+    <wire from="(520,40)" to="(760,40)"/>
+    <wire from="(450,200)" to="(450,800)"/>
     <wire from="(310,300)" to="(310,400)"/>
     <wire from="(310,500)" to="(310,600)"/>
-    <wire from="(460,260)" to="(460,810)"/>
     <wire from="(560,830)" to="(580,830)"/>
     <wire from="(470,70)" to="(470,360)"/>
     <wire from="(210,360)" to="(210,460)"/>
     <wire from="(210,680)" to="(210,780)"/>
     <wire from="(500,850)" to="(520,850)"/>
-    <wire from="(500,680)" to="(500,850)"/>
+    <wire from="(460,260)" to="(460,300)"/>
     <wire from="(210,90)" to="(210,140)"/>
     <wire from="(510,110)" to="(520,110)"/>
     <wire from="(280,700)" to="(360,700)"/>
     <wire from="(420,680)" to="(500,680)"/>
+    <wire from="(760,40)" to="(760,100)"/>
     <wire from="(210,560)" to="(210,680)"/>
     <wire from="(150,850)" to="(280,850)"/>
     <wire from="(450,800)" to="(520,800)"/>
@@ -202,7 +204,10 @@ This file is intended to be loaded by Logisim-evolution (https://github.com/reds
     <wire from="(310,80)" to="(360,80)"/>
     <wire from="(310,600)" to="(360,600)"/>
     <wire from="(310,720)" to="(360,720)"/>
+    <wire from="(450,200)" to="(760,200)"/>
     <wire from="(150,830)" to="(260,830)"/>
+    <wire from="(460,300)" to="(760,300)"/>
+    <wire from="(470,400)" to="(760,400)"/>
     <wire from="(450,50)" to="(450,140)"/>
     <wire from="(540,870)" to="(540,890)"/>
     <wire from="(300,740)" to="(300,840)"/>
@@ -220,19 +225,27 @@ This file is intended to be loaded by Logisim-evolution (https://github.com/reds
     <wire from="(210,260)" to="(360,260)"/>
     <wire from="(210,140)" to="(360,140)"/>
     <wire from="(500,100)" to="(520,100)"/>
+    <wire from="(470,360)" to="(470,400)"/>
+    <wire from="(480,500)" to="(760,500)"/>
+    <wire from="(500,700)" to="(760,700)"/>
+    <wire from="(490,600)" to="(760,600)"/>
     <wire from="(440,790)" to="(520,790)"/>
     <wire from="(150,790)" to="(220,790)"/>
+    <wire from="(450,140)" to="(450,200)"/>
     <wire from="(480,80)" to="(480,460)"/>
     <wire from="(450,50)" to="(520,50)"/>
     <wire from="(300,620)" to="(300,740)"/>
     <wire from="(130,870)" to="(130,880)"/>
     <wire from="(420,360)" to="(470,360)"/>
     <wire from="(240,280)" to="(360,280)"/>
+    <wire from="(500,700)" to="(500,850)"/>
+    <wire from="(500,680)" to="(500,700)"/>
     <wire from="(540,120)" to="(540,150)"/>
     <wire from="(250,380)" to="(360,380)"/>
     <wire from="(260,480)" to="(360,480)"/>
     <wire from="(510,110)" to="(510,780)"/>
     <wire from="(480,830)" to="(520,830)"/>
+    <wire from="(760,780)" to="(760,800)"/>
     <wire from="(310,80)" to="(310,180)"/>
     <wire from="(310,400)" to="(310,500)"/>
     <wire from="(310,720)" to="(310,820)"/>
@@ -243,9 +256,11 @@ This file is intended to be loaded by Logisim-evolution (https://github.com/reds
     <wire from="(210,460)" to="(210,560)"/>
     <wire from="(300,200)" to="(300,240)"/>
     <wire from="(110,880)" to="(130,880)"/>
+    <wire from="(480,460)" to="(480,500)"/>
     <wire from="(300,420)" to="(380,420)"/>
     <wire from="(150,860)" to="(290,860)"/>
     <wire from="(440,40)" to="(520,40)"/>
+    <wire from="(490,600)" to="(490,840)"/>
     <wire from="(210,140)" to="(210,260)"/>
     <wire from="(310,600)" to="(310,720)"/>
     <wire from="(270,580)" to="(270,840)"/>
@@ -257,10 +272,10 @@ This file is intended to be loaded by Logisim-evolution (https://github.com/reds
     <wire from="(310,300)" to="(360,300)"/>
     <wire from="(310,180)" to="(360,180)"/>
     <wire from="(310,820)" to="(360,820)"/>
+    <wire from="(480,500)" to="(480,830)"/>
     <wire from="(460,60)" to="(460,260)"/>
     <wire from="(120,240)" to="(300,240)"/>
     <wire from="(490,90)" to="(490,560)"/>
-    <wire from="(450,140)" to="(450,800)"/>
     <wire from="(300,240)" to="(300,320)"/>
     <wire from="(220,60)" to="(220,790)"/>
     <wire from="(170,90)" to="(210,90)"/>
@@ -269,7 +284,6 @@ This file is intended to be loaded by Logisim-evolution (https://github.com/reds
     <wire from="(150,820)" to="(250,820)"/>
     <wire from="(310,210)" to="(310,300)"/>
     <wire from="(420,260)" to="(460,260)"/>
-    <wire from="(490,560)" to="(490,840)"/>
     <wire from="(480,80)" to="(520,80)"/>
     <wire from="(300,520)" to="(300,620)"/>
     <wire from="(300,320)" to="(300,420)"/>
@@ -277,17 +291,19 @@ This file is intended to be loaded by Logisim-evolution (https://github.com/reds
     <wire from="(300,620)" to="(390,620)"/>
     <wire from="(300,740)" to="(390,740)"/>
     <wire from="(300,100)" to="(390,100)"/>
+    <wire from="(470,400)" to="(470,820)"/>
     <wire from="(440,40)" to="(440,790)"/>
     <wire from="(210,560)" to="(360,560)"/>
     <wire from="(210,680)" to="(360,680)"/>
     <wire from="(210,360)" to="(360,360)"/>
     <wire from="(210,40)" to="(360,40)"/>
     <wire from="(420,40)" to="(440,40)"/>
+    <wire from="(490,560)" to="(490,600)"/>
     <wire from="(210,40)" to="(210,90)"/>
     <wire from="(150,800)" to="(230,800)"/>
-    <wire from="(480,460)" to="(480,830)"/>
     <wire from="(220,60)" to="(360,60)"/>
     <wire from="(290,800)" to="(290,860)"/>
+    <wire from="(460,300)" to="(460,810)"/>
     <wire from="(250,380)" to="(250,820)"/>
     <wire from="(420,560)" to="(490,560)"/>
     <wire from="(230,160)" to="(360,160)"/>
@@ -333,62 +349,6 @@ This file is intended to be loaded by Logisim-evolution (https://github.com/reds
       <a name="width" val="3"/>
       <a name="label" val="RegB"/>
     </comp>
-    <comp lib="0" loc="(1300,490)" name="Pin">
-      <a name="facing" val="west"/>
-      <a name="output" val="true"/>
-      <a name="width" val="32"/>
-      <a name="label" val="R4"/>
-      <a name="labelloc" val="east"/>
-    </comp>
-    <comp lib="0" loc="(1300,590)" name="Pin">
-      <a name="facing" val="west"/>
-      <a name="output" val="true"/>
-      <a name="width" val="32"/>
-      <a name="label" val="R5"/>
-      <a name="labelloc" val="east"/>
-    </comp>
-    <comp lib="0" loc="(1300,390)" name="Pin">
-      <a name="facing" val="west"/>
-      <a name="output" val="true"/>
-      <a name="width" val="32"/>
-      <a name="label" val="R3"/>
-      <a name="labelloc" val="east"/>
-    </comp>
-    <comp lib="0" loc="(1300,290)" name="Pin">
-      <a name="facing" val="west"/>
-      <a name="output" val="true"/>
-      <a name="width" val="32"/>
-      <a name="label" val="R2"/>
-      <a name="labelloc" val="east"/>
-    </comp>
-    <comp lib="0" loc="(1300,790)" name="Pin">
-      <a name="facing" val="west"/>
-      <a name="output" val="true"/>
-      <a name="width" val="32"/>
-      <a name="label" val="R7"/>
-      <a name="labelloc" val="east"/>
-    </comp>
-    <comp lib="0" loc="(1300,690)" name="Pin">
-      <a name="facing" val="west"/>
-      <a name="output" val="true"/>
-      <a name="width" val="32"/>
-      <a name="label" val="R6"/>
-      <a name="labelloc" val="east"/>
-    </comp>
-    <comp lib="0" loc="(1300,190)" name="Pin">
-      <a name="facing" val="west"/>
-      <a name="output" val="true"/>
-      <a name="width" val="32"/>
-      <a name="label" val="R1"/>
-      <a name="labelloc" val="east"/>
-    </comp>
-    <comp lib="0" loc="(1300,90)" name="Pin">
-      <a name="facing" val="west"/>
-      <a name="output" val="true"/>
-      <a name="width" val="32"/>
-      <a name="label" val="R0"/>
-      <a name="labelloc" val="east"/>
-    </comp>
     <comp lib="4" loc="(360,750)" name="Register">
       <a name="width" val="32"/>
     </comp>
@@ -422,6 +382,62 @@ This file is intended to be loaded by Logisim-evolution (https://github.com/reds
       <a name="output" val="true"/>
       <a name="width" val="32"/>
       <a name="label" val="BOut"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp lib="0" loc="(760,800)" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+      <a name="width" val="32"/>
+      <a name="label" val="R7"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp lib="0" loc="(760,300)" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+      <a name="width" val="32"/>
+      <a name="label" val="R2"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp lib="0" loc="(760,500)" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+      <a name="width" val="32"/>
+      <a name="label" val="R4"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp lib="0" loc="(760,600)" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+      <a name="width" val="32"/>
+      <a name="label" val="R5"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp lib="0" loc="(760,700)" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+      <a name="width" val="32"/>
+      <a name="label" val="R6"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp lib="0" loc="(760,100)" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+      <a name="width" val="32"/>
+      <a name="label" val="R0"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp lib="0" loc="(760,200)" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+      <a name="width" val="32"/>
+      <a name="label" val="R1"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp lib="0" loc="(760,400)" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+      <a name="width" val="32"/>
+      <a name="label" val="R3"/>
       <a name="labelloc" val="east"/>
     </comp>
   </circuit>
