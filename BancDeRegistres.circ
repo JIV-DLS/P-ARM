@@ -160,7 +160,7 @@ This file is intended to be loaded by Logisim-evolution (https://github.com/reds
       <circ-port height="10" pin="580,80" width="10" x="405" y="135"/>
       <circ-port height="8" pin="590,150" width="8" x="276" y="156"/>
       <circ-port height="8" pin="110,880" width="8" x="126" y="106"/>
-      <circ-port height="10" pin="760,100" width="10" x="275" y="165"/>
+      <circ-port height="10" pin="790,110" width="10" x="275" y="165"/>
       <circ-port height="10" pin="760,200" width="10" x="275" y="175"/>
       <circ-port height="10" pin="760,300" width="10" x="275" y="185"/>
       <circ-port height="10" pin="760,400" width="10" x="275" y="195"/>
@@ -190,7 +190,6 @@ This file is intended to be loaded by Logisim-evolution (https://github.com/reds
     <wire from="(510,110)" to="(520,110)"/>
     <wire from="(280,700)" to="(360,700)"/>
     <wire from="(420,680)" to="(500,680)"/>
-    <wire from="(760,40)" to="(760,100)"/>
     <wire from="(210,560)" to="(210,680)"/>
     <wire from="(150,850)" to="(280,850)"/>
     <wire from="(450,800)" to="(520,800)"/>
@@ -205,6 +204,7 @@ This file is intended to be loaded by Logisim-evolution (https://github.com/reds
     <wire from="(310,600)" to="(360,600)"/>
     <wire from="(310,720)" to="(360,720)"/>
     <wire from="(450,200)" to="(760,200)"/>
+    <wire from="(760,40)" to="(760,110)"/>
     <wire from="(150,830)" to="(260,830)"/>
     <wire from="(460,300)" to="(760,300)"/>
     <wire from="(470,400)" to="(760,400)"/>
@@ -224,6 +224,7 @@ This file is intended to be loaded by Logisim-evolution (https://github.com/reds
     <wire from="(210,780)" to="(360,780)"/>
     <wire from="(210,260)" to="(360,260)"/>
     <wire from="(210,140)" to="(360,140)"/>
+    <wire from="(760,110)" to="(790,110)"/>
     <wire from="(500,100)" to="(520,100)"/>
     <wire from="(470,360)" to="(470,400)"/>
     <wire from="(480,500)" to="(760,500)"/>
@@ -419,13 +420,6 @@ This file is intended to be loaded by Logisim-evolution (https://github.com/reds
       <a name="label" val="R6"/>
       <a name="labelloc" val="east"/>
     </comp>
-    <comp lib="0" loc="(760,100)" name="Pin">
-      <a name="facing" val="west"/>
-      <a name="output" val="true"/>
-      <a name="width" val="32"/>
-      <a name="label" val="R0"/>
-      <a name="labelloc" val="east"/>
-    </comp>
     <comp lib="0" loc="(760,200)" name="Pin">
       <a name="facing" val="west"/>
       <a name="output" val="true"/>
@@ -438,6 +432,13 @@ This file is intended to be loaded by Logisim-evolution (https://github.com/reds
       <a name="output" val="true"/>
       <a name="width" val="32"/>
       <a name="label" val="R3"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp lib="0" loc="(790,110)" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+      <a name="width" val="32"/>
+      <a name="label" val="R0"/>
       <a name="labelloc" val="east"/>
     </comp>
   </circuit>
