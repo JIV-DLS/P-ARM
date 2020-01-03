@@ -99,17 +99,17 @@ This file is intended to be loaded by Logisim-evolution (https://github.com/reds
     <a name="circuitnamedbox" val="true"/>
     <a name="circuitvhdlpath" val=""/>
     <appear>
-      <path d="M377,331 Q392,319 376,330" fill="none" stroke="#808080" stroke-width="2"/>
-      <text font-family="SansSerif" font-size="12" text-anchor="middle" x="380" y="344">ALU</text>
-      <polygon fill="none" points="329,310 359,310 381,329 399,310 429,310 389,350 369,350" stroke="#000000" stroke-width="2"/>
-      <circ-port height="10" pin="690,60" width="10" x="375" y="345"/>
-      <circ-port height="10" pin="710,120" width="10" x="405" y="325"/>
-      <circ-port height="8" pin="410,140" width="8" x="356" y="336"/>
-      <circ-port height="8" pin="390,240" width="8" x="336" y="316"/>
-      <circ-port height="8" pin="320,280" width="8" x="336" y="306"/>
-      <circ-port height="8" pin="460,280" width="8" x="406" y="306"/>
-      <circ-port height="8" pin="310,30" width="8" x="346" y="326"/>
-      <circ-anchor facing="north" height="6" width="6" x="377" y="327"/>
+      <path d="M116,198 Q120,208 124,198" fill="none" stroke="#808080" stroke-width="2"/>
+      <text font-family="SansSerif" font-size="12" text-anchor="middle" x="122" y="214">ALU</text>
+      <polygon fill="none" points="70,180 100,180 120,200 140,180 170,180 130,220 110,220" stroke="#000000" stroke-width="2"/>
+      <circ-port height="10" pin="690,60" width="10" x="165" y="185"/>
+      <circ-port height="10" pin="710,120" width="10" x="165" y="195"/>
+      <circ-port height="8" pin="410,140" width="8" x="76" y="216"/>
+      <circ-port height="8" pin="390,240" width="8" x="76" y="246"/>
+      <circ-port height="8" pin="320,280" width="8" x="76" y="256"/>
+      <circ-port height="8" pin="460,280" width="8" x="76" y="266"/>
+      <circ-port height="8" pin="310,30" width="8" x="86" y="256"/>
+      <circ-anchor facing="north" height="6" width="6" x="117" y="197"/>
     </appear>
     <wire from="(440,140)" to="(440,210)"/>
     <wire from="(460,210)" to="(460,280)"/>
@@ -160,7 +160,6 @@ This file is intended to be loaded by Logisim-evolution (https://github.com/reds
     <comp lib="0" loc="(310,30)" name="Pin">
       <a name="facing" val="north"/>
       <a name="width" val="4"/>
-      <a name="label" val="Codop"/>
     </comp>
     <comp lib="0" loc="(240,30)" name="Probe">
       <a name="facing" val="north"/>
@@ -169,20 +168,15 @@ This file is intended to be loaded by Logisim-evolution (https://github.com/reds
     <comp lib="0" loc="(460,280)" name="Pin">
       <a name="facing" val="north"/>
       <a name="width" val="32"/>
-      <a name="label" val="B"/>
     </comp>
-    <comp lib="0" loc="(410,140)" name="Pin">
-      <a name="label" val="CarryIn"/>
-    </comp>
+    <comp lib="0" loc="(410,140)" name="Pin"/>
     <comp lib="0" loc="(320,280)" name="Pin">
       <a name="facing" val="north"/>
       <a name="width" val="32"/>
-      <a name="label" val="A"/>
     </comp>
     <comp lib="0" loc="(390,240)" name="Pin">
       <a name="facing" val="west"/>
       <a name="width" val="5"/>
-      <a name="label" val="Shift"/>
     </comp>
   </circuit>
   <circuit name="Operations">
