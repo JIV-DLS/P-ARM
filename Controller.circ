@@ -632,10 +632,6 @@ end TCL_Generic;
       <a name="text" val="Extract Opcode"/>
       <a name="font" val="SansSerif plain 12"/>
     </comp>
-    <comp lib="0" loc="(1060,390)" name="Probe">
-      <a name="facing" val="north"/>
-      <a name="radix" val="10unsigned"/>
-    </comp>
   </circuit>
   <circuit name="Conditional">
     <a name="circuit" val="Conditional"/>
