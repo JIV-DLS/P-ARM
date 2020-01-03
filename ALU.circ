@@ -100,8 +100,15 @@ This file is intended to be loaded by Logisim-evolution (https://github.com/reds
     <a name="circuitvhdlpath" val=""/>
     <appear>
       <path d="M116,198 Q120,208 124,198" fill="none" stroke="#808080" stroke-width="2"/>
-      <text font-family="SansSerif" font-size="12" text-anchor="middle" x="122" y="214">ALU</text>
+      <text font-family="SansSerif" font-size="12" text-anchor="middle" x="121" y="219">ALU</text>
       <polygon fill="none" points="70,180 100,180 120,200 140,180 170,180 130,220 110,220" stroke="#000000" stroke-width="2"/>
+      <text font-family="SansSerif" font-size="12" text-anchor="middle" x="148" y="200">S</text>
+      <text font-family="SansSerif" font-size="12" text-anchor="middle" x="134" y="209">F</text>
+      <text font-family="SansSerif" font-size="12" text-anchor="middle" x="154" y="190">B</text>
+      <text font-family="SansSerif" font-size="12" text-anchor="middle" x="97" y="187">A</text>
+      <text font-family="SansSerif" font-size="12" text-anchor="middle" x="96" y="195">Cod</text>
+      <text font-family="SansSerif" font-size="12" text-anchor="middle" x="102" y="204">Sh</text>
+      <text font-family="SansSerif" font-size="12" text-anchor="middle" x="112" y="212">Cin</text>
       <circ-port height="10" pin="690,60" width="10" x="155" y="185"/>
       <circ-port height="10" pin="710,120" width="10" x="135" y="205"/>
       <circ-port height="8" pin="410,140" width="8" x="96" y="206"/>
