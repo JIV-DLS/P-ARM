@@ -102,13 +102,13 @@ This file is intended to be loaded by Logisim-evolution (https://github.com/reds
       <path d="M116,198 Q120,208 124,198" fill="none" stroke="#808080" stroke-width="2"/>
       <text font-family="SansSerif" font-size="12" text-anchor="middle" x="122" y="214">ALU</text>
       <polygon fill="none" points="70,180 100,180 120,200 140,180 170,180 130,220 110,220" stroke="#000000" stroke-width="2"/>
-      <circ-port height="10" pin="690,60" width="10" x="165" y="185"/>
-      <circ-port height="10" pin="710,120" width="10" x="165" y="195"/>
-      <circ-port height="8" pin="410,140" width="8" x="76" y="216"/>
-      <circ-port height="8" pin="390,240" width="8" x="76" y="246"/>
-      <circ-port height="8" pin="320,280" width="8" x="76" y="256"/>
-      <circ-port height="8" pin="460,280" width="8" x="76" y="266"/>
-      <circ-port height="8" pin="310,30" width="8" x="86" y="256"/>
+      <circ-port height="10" pin="690,60" width="10" x="155" y="185"/>
+      <circ-port height="10" pin="710,120" width="10" x="135" y="205"/>
+      <circ-port height="8" pin="410,140" width="8" x="96" y="206"/>
+      <circ-port height="8" pin="390,240" width="8" x="86" y="196"/>
+      <circ-port height="8" pin="320,280" width="8" x="86" y="176"/>
+      <circ-port height="8" pin="460,280" width="8" x="156" y="176"/>
+      <circ-port height="8" pin="310,30" width="8" x="76" y="186"/>
       <circ-anchor facing="north" height="6" width="6" x="117" y="197"/>
     </appear>
     <wire from="(440,140)" to="(440,210)"/>
