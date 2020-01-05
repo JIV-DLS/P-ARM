@@ -210,6 +210,7 @@ This file is intended to be loaded by Logisim-evolution (https://github.com/reds
     <wire from="(740,1010)" to="(810,1010)"/>
     <wire from="(560,830)" to="(630,830)"/>
     <wire from="(240,920)" to="(250,920)"/>
+    <wire from="(200,560)" to="(210,560)"/>
     <wire from="(70,460)" to="(140,460)"/>
     <wire from="(460,530)" to="(530,530)"/>
     <wire from="(780,980)" to="(780,1030)"/>
@@ -219,7 +220,6 @@ This file is intended to be loaded by Logisim-evolution (https://github.com/reds
     <wire from="(570,60)" to="(620,60)"/>
     <wire from="(860,950)" to="(860,960)"/>
     <wire from="(520,210)" to="(570,210)"/>
-    <wire from="(70,560)" to="(120,560)"/>
     <wire from="(530,190)" to="(570,190)"/>
     <wire from="(370,20)" to="(370,40)"/>
     <wire from="(590,850)" to="(630,850)"/>
@@ -275,7 +275,6 @@ This file is intended to be loaded by Logisim-evolution (https://github.com/reds
     <wire from="(230,220)" to="(280,220)"/>
     <wire from="(250,920)" to="(250,930)"/>
     <wire from="(810,400)" to="(810,430)"/>
-    <wire from="(160,560)" to="(200,560)"/>
     <wire from="(140,660)" to="(180,660)"/>
     <wire from="(250,970)" to="(290,970)"/>
     <wire from="(250,930)" to="(290,930)"/>
@@ -298,6 +297,7 @@ This file is intended to be loaded by Logisim-evolution (https://github.com/reds
     <wire from="(740,960)" to="(810,960)"/>
     <wire from="(170,860)" to="(250,860)"/>
     <wire from="(850,960)" to="(860,960)"/>
+    <wire from="(70,560)" to="(200,560)"/>
     <comp lib="0" loc="(120,200)" name="Tunnel">
       <a name="facing" val="east"/>
       <a name="width" val="32"/>
@@ -363,13 +363,10 @@ This file is intended to be loaded by Logisim-evolution (https://github.com/reds
       <a name="width" val="32"/>
       <a name="label" val="ASR"/>
     </comp>
-    <comp lib="3" loc="(160,560)" name="Negator">
-      <a name="width" val="32"/>
-    </comp>
     <comp lib="0" loc="(70,560)" name="Tunnel">
       <a name="facing" val="east"/>
       <a name="width" val="32"/>
-      <a name="label" val="B"/>
+      <a name="label" val="A"/>
     </comp>
     <comp lib="0" loc="(200,560)" name="Pin">
       <a name="facing" val="west"/>
