@@ -4,8 +4,8 @@ import java.nio.file.Paths;
 import java.util.*;
 
 public class Main {
-    private static final String FILE_NAME = "f1.txt";
-    private static final String OUT_FILE_NAME = "f1.mem";
+    private static final String FILE_NAME = "ual.txt";
+    private static final String OUT_FILE_NAME = "out.txt";
     private static ArrayList<String> file_lines = new ArrayList<>();
 
     public static void main(String[] args) {
